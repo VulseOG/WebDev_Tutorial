@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html>
+  
+  <head>
+    <title>HTML Tutorial</title>
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/857395685375344690/1040147386464485376/white-pointer.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  </head>
+  
+  <body>
+    <!-- This is a comment, does not show in the compiler -->
+    
+    <h1 style="color:teal;  background-color:black;">First Heading, I'm teal- with a black background = h1</h1>
+    <h2 id="intro">Second Heading = h2</h2>
+    <h3 class="heading">Third Heading = h3</h3>
+
+<!-- <pre></pre> Will display anything typed inside the brackets as literally. -->
+    <pre id="paragraph">
+<hr>
+<p id="important"><i>This is important</i></p>
+<hr>
+<div class="dropdown">
+<button class="dropdownbutton">Site Navigation</button>
+<div class="dropdown-menu">
+<a href="#">Home</a>
+<a href="#">News</a>
+<a href="#">About Us</a>
+<a href="#">Contact Us</a>
+</div>
+</div>
+
+<b>This is Bold.</b>
+<i>This is italic.</i>
+<u>This is underlined.</u>
+<em>This is emphasized. </em>
+This is <mark>marked.</mark>
+This is a <del>strikethrough.</del>
+<small>This text is small.</small>
+Chemical Notation = O<sub>2</sub>
+Mathematical Notation = 7<sup>3</sup>
+
+<!-- This represents a table without lines -->
+<table>
+  <tr>
+<th>Name</th>
+<th>Age</th>
+<th>Year</th>
+  </tr>
+  <tr>
+    <td>James</td>
+    <td>27</td>
+    <td>2012</td>
+  </tr>
+  <tr>
+    <td>Tomi</td>
+    <td>19</td>
+    <td>2021</td>
+  </tr>
+    <tr>
+    <td>John</td>
+    <td>30</td>
+    <td>2009</td>
+  </tr>
+</table>
+
+<!-- Non-order list, no numerics -->
+<ul>
+  <li>Name 1</li>
+  <li>Name 2</li>
+  <li>Name 3</li>
+</ul>
+      
+<!-- Ordered List 1..2..3..etc -->
+<ol>
+  <li>Name 1</li>
+  <li>Name 2</li>
+  <li>Name 3</li>
+</ol>
+      
+<!-- Data list, defines <dt> with <dd> -->
+<dl>
+  <dt>Name 1</li>
+  <dd>*This is the first name.</dd>
+  <dt>Name 2</li>
+  <dd>*This is the second name.</dd>
+</dl>
+
+<div style="color: orange;background-color:teal;">
+  <h1>First Div</h1>
+  <p>This is wrapped and <b>bold</b></p>
+</div>
+<div style="color: teal;background-color:orange;">
+  <h1>Second Div</h1>
+  <b>This is wrapped and bold</b>
+</div>
+    </pre>
+    
+    <!-- This displays links and image descriptions. -->
+    <a href="https://google.com" target="_blank">Google Hyperlink in a new tab</a>
+<br>
+<a href="https://google.com">Google Hyperlink inside tab</a>
+<br>
+  <a href="mailto:sample@sample.com">Click to Open email.</a>
+<br>
+ <pre><b><u>Image Example:</u></b>
+   <img src="https://cdn.discordapp.com/attachments/857395685375344690/1040147361705500764/orange-pointer.png" height="200" width="200" title="Finger Pointer" alt="This image is from discord."> 
+<i class="material-icons">cloud</i><i class="material-icons">computer</i><i class="material-icons">traffic</i>
+  </pre>
+
+<!-- This represents how to add special symbols. -->
+<p>This is the trademark sign &#8482;</p>
+<br>
+<p>This is the trademark sign &#174;</p>
+<br>
+<p>This is the copyright sign &#169;</p>
+<br>
+<p>This is the euro sign &euro;</p>
+<br>
+
+<!-- iframes are pages embedded in pages; most sites do not allow this. -->
+<iframe src="https://google.com" height="100" width="200" style="border: none;"></iframe>
+<br>
+    <!-- action="" sends the data to specified .html or /dir -->
+    <!-- method POST does not show input from form results in URL -- GET shows whatever is submitted in the textbox to the URL i.e. google.com/search=cat -->
+  <form action="form.html" method="post">
+    <!-- Checkbox = Box -- Radio = Circle -->
+    <label for="username">Username:</label><br>
+    <input type="text" name="username" id="username">
+    <br>
+    <label for="password">Password:</label><br>
+    <input type="text" name="password" id="password">
+    <br>
+    <label for="captcha">Are you human?</label><br>
+    <label for="captcha">Yes:</label>
+    <input type="radio" name="captcha" id="Yes"><br>
+    <label for="captcha">No:</label>
+    <input type="checkbox" name="captcha" id="No"><br>
+    <input type="submit" value="Login">
+  </form>
+
+  </body>
+</html>
